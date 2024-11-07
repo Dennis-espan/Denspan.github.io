@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #52004C;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #52004C;
+  color: rgb(0, 0, 0);
+}
+#emp
+{
+  border-style: solid;
+  border-color: #6CF032;
+  background-color: rgba(255, 0, 0, 0);
+  color: antiquewhite;
+}
+#emp:hover
+{
+
+  background-color: rgba(150, 150, 150, 0.212);
+}
+#ran{
+  -webkit-box-shadow:0px 0px 65px 16px rgba(107,240,50,0.9);
+  -moz-box-shadow: 0px 0px 65px 16px rgba(107,240,50,0.9);
+  box-shadow: 0px 0px 65px 16px rgba(107,240,50,0.9);
+  background-color: #6CF032;  
+}
+#ran:hover{
+  -webkit-box-shadow:0px 0px 65px 20px rgba(107,240,50,0.9);
+  -moz-box-shadow: 0px 0px 65px 20px rgba(107,240,50,0.9);
+  box-shadow: 0px 0px 65px 20px rgba(107,240,50,0.9); 
+}
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  justify-items: center;
+  align-items: start;
+  max-height: 80vh;
+  overflow-y: auto;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.card {
+  padding: 20px;
+  background-color: #3b0037;
+  max-width: 300px;
+  width: 100%;
+  min-height: 250px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.card p {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.card textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  min-height: 100px;
+  resize: vertical;
+  display: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card button {
+  width: 45%;
+  margin: 5px;
+}
+
+.edit-btn {
+  background-color: #6CF032;
+}
+
+.edit-btn:hover {
+  background-color: #58c42a;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
